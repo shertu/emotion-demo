@@ -1,19 +1,18 @@
-import { CacheProvider } from "@emotion/react";
-import { ImageEditor } from "blinq-image-editor";
 import React from "react";
-import createCache from "@emotion/cache";
+import dynamic from "next/dynamic";
 
-const cache = createCache({
-  key: "xlgcyzurhl",
-});
+const ImageEditor = dynamic(
+  async () => (await import("blinq-image-editor")).ImageEditor,
+  {
+    ssr: false,
+  }
+);
 
 export function IndexPage() {
   return (
-    <CacheProvider value={cache}>
-      <div>
-        <ImageEditor />
-      </div>
-    </CacheProvider>
+    <div>
+      <ImageEditor imageSrc="https://picsum.photos/300/200" />
+    </div>
   );
 }
 

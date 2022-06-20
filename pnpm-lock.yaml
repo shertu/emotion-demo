@@ -2,12 +2,9 @@ lockfileVersion: 5.4
 
 specifiers:
   '@babel/core': ^7.18.5
-  '@emotion/cache': ^11.9.3
-  '@emotion/react': ^11.9.3
-  '@emotion/styled': ^11.9.3
   '@types/react': ^18.0.14
   '@types/react-dom': ^18.0.5
-  blinq-image-editor: ^1.0.4
+  blinq-image-editor: 1.0.6
   next: ^12.1.6
   react: ^18.2.0
   react-dom: ^18.2.0
@@ -15,10 +12,7 @@ specifiers:
 
 dependencies:
   '@babel/core': 7.18.5
-  '@emotion/cache': 11.9.3
-  '@emotion/react': 11.9.3_7eu627umq2cbnjxmysy5yb5jqq
-  '@emotion/styled': 11.9.3_qbwmrvb6ojitbfrbjtglmejmbm
-  blinq-image-editor: 1.0.4_jpzwwt66xdhwqn34547xlyjvfe
+  blinq-image-editor: 1.0.6_jpzwwt66xdhwqn34547xlyjvfe
   next: 12.1.6_4cc5zw5azim2bix77d63le72su
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -620,8 +614,8 @@ packages:
       resolve: 1.22.1
     dev: false
 
-  /blinq-image-editor/1.0.4_jpzwwt66xdhwqn34547xlyjvfe:
-    resolution: {integrity: sha512-7nJkMqdrzzHASNsqCe9Av+08sBzlsAG7PYEAky0cYtFPk95US3jrz7Javhpz8BLruVtXrfmyJtKhD4lMUNMhzw==}
+  /blinq-image-editor/1.0.6_jpzwwt66xdhwqn34547xlyjvfe:
+    resolution: {integrity: sha512-WzAgIXQRJCVBdPGzA7MZLmqPIYRv74SFiHldzQYrLpTXHEZfKhSNJxC2WH6j04NIQXB59HSY62kj0P6CjGdpkA==}
     engines: {node: '>=16.15.0'}
     dependencies:
       '@emotion/react': 11.9.3_7eu627umq2cbnjxmysy5yb5jqq
